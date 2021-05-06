@@ -23,6 +23,9 @@ composer.phar
 # Mac DS_Store Files
 .DS_Store
 
+# Ignore the vendor folder
+/vendor
+
 # phpunit itself is not needed
 phpunit.phar
 # local phpunit config
@@ -32,9 +35,9 @@ phpunit.phar
 /.vagrant
 
 # ignore generated files
-/frontend/web/index.php
-/frontend/web/index-test.php
-/frontend/web/robots.txt
-/backend/web/index.php
-/backend/web/index-test.php
-/backend/web/robots.txt
+/client/web/index.php
+/client/web/index-test.php
+/client/web/robots.txt
+/admin/web/index.php
+/admin/web/index-test.php
+/admin/web/robots.txt
