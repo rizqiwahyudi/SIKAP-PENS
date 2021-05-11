@@ -38,6 +38,7 @@ class ListKpController extends Controller
      */
     public function actionIndex()
     {    
+        $this->layout = 'main';
         $searchModel = new ListKpSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
