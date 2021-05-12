@@ -25,6 +25,7 @@ class ListKpController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
+                'only' => [''],
                 'rules' => [
                     [
                         'actions' => ['login', 'error'],
