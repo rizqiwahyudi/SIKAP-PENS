@@ -7,6 +7,7 @@ use common\models\ListKp;
 use common\models\ListKpSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
+use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use \yii\web\Response;
 use yii\helpers\Html;
@@ -22,6 +23,24 @@ class ListKpController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions' => ['login', 'error'],
+                        'allow' => true,
+                    ],
+                    [
+                        'actions' => ['logout', 'index'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                    [
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -38,6 +57,7 @@ class ListKpController extends Controller
      */
     public function actionIndex()
     {    
+        $this->layout = 'main';
         $searchModel = new ListKpSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
