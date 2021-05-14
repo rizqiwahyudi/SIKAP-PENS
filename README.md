@@ -1,4 +1,6 @@
 <p align="center">
+    <img width="500px" alt="SIKAP-PENS" src="https://user-images.githubusercontent.com/41534140/117836941-3693c780-b2a3-11eb-95f1-23721296c288.png">
+    <br>
     <h1 align="center">SIKAP PENS</h1>
     <br><br>
     <b>SIKAP-PENS</b> (Sistem Informasi Kerja Praktek PENS) is a web-based information system for managing PENS' student internship data.
