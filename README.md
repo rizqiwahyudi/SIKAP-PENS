@@ -51,6 +51,9 @@ http://localhost/SIKAP-PENS/client/web/
 
 > **NOTE : Make sure the web server and database are turned on before migration command**
 
+> **For Example USER you can use :**
+> Username : admin
+> Password : admin12345
 DIRECTORY STRUCTURE
 -------------------
 
