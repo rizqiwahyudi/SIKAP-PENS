@@ -12,6 +12,7 @@ class ListKpController extends \yii\web\Controller
 {
     public function actionIndex()
     {
+    	$this->layout = 'copy-main';
     	$dataProvider = new ActiveDataProvider([
     		'query' => ListKp::find(),
     	]);

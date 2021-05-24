@@ -10,7 +10,7 @@ return [
     'id' => 'SIKAP_client',
     'basePath' => dirname(__DIR__),
     'name' => 'SIKAP PENS',
-    'defaultRoute' => 'list-kp/index',
+    // 'defaultRoute' => 'list-kp/index',
     'bootstrap' => ['log'],
     'controllerNamespace' => 'client\controllers',
     'modules' => [
