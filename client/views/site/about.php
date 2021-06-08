@@ -14,8 +14,8 @@ $this->title = 'About';
                 <h2>About Us</h2>
             </div>
             <div class="col-12">
-                <a href="">Home</a>
-                <a href="">About Us</a>
+                <a href="<?= Yii::$app->request->baseUrl ?>/">Home</a>
+                <a href="<?= Yii::$app->request->baseUrl ?>/site/about">About Us</a>
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@ $this->title = 'About';
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <img src="img/poster.jpg" alt="Image">
+                <img src="<?= Yii::$app->request->baseUrl ?>/img/poster.jpg" alt="Image">
             </div>
             <div class="col-md-6">
                 <h2 class="section-title">Learn About Us</h2>
@@ -237,7 +237,7 @@ $this->title = 'About';
             <div class="col-sm-6 col-lg-3 ">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="img/team-1.jpg" alt="Team">
+                        <img src="<?= Yii::$app->request->baseUrl ?>/img/team-1.jpg" alt="Team">
                     </div>
                     <div class="team-text">
                         <h3>Member Name</h3>
@@ -255,7 +255,7 @@ $this->title = 'About';
             <div class="col-sm-6 col-lg-3 ">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="img/team-2.jpg" alt="Team">
+                        <img src="<?= Yii::$app->request->baseUrl ?>/img/team-2.jpg" alt="Team">
                     </div>
                     <div class="team-text">
                         <h3>Member Name</h3>
@@ -273,7 +273,7 @@ $this->title = 'About';
             <div class="col-sm-6 col-lg-3 ">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="img/team-3.jpg" alt="Team">
+                        <img src="<?= Yii::$app->request->baseUrl ?>/img/team-3.jpg" alt="Team">
                     </div>
                     <div class="team-text">
                         <h3>Member Name</h3>
@@ -291,7 +291,7 @@ $this->title = 'About';
             <div class="col-sm-6 col-lg-3 ">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="img/team-4.jpg" alt="Team">
+                        <img src="<?= Yii::$app->request->baseUrl ?>/img/team-4.jpg" alt="Team">
                     </div>
                     <div class="team-text">
                         <h3>Member Name</h3>
