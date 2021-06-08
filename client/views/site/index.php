@@ -15,7 +15,7 @@ $this->title = 'Home';
             <a class="btn" href="https://htmlcodex.com/bootstrap-agency-template">Download Now</a>
          </div>
          <div class="col-md-6">
-            <img src="img/hero.png" alt="Image">
+            <img src="<?= Yii::$app->request->baseUrl ?>/img/hero.png" alt="Image">
          </div>
       </div>
    </div>
@@ -207,7 +207,7 @@ $this->title = 'Home';
             <a class="btn" href="">Ask more</a>
          </div>
          <div class="col-md-6">
-            <img src="img/faqs.jpg" alt="Image">
+            <img src="<?= Yii::$app->request->baseUrl ?>/img/faqs.jpg" alt="Image">
          </div>
       </div>
    </div>
@@ -284,7 +284,7 @@ $this->title = 'Home';
          </div>
       </div>
    </div>
-   <!-- Testimonial End -->
+   Testimonial End -->
 
 
 <!-- News Start -->
@@ -306,7 +306,7 @@ $this->title = 'Home';
             </div>
          </div>
       </div>
-   </div> --> -->
+   </div> --> 
 <!-- News End -->
 
 

@@ -37,8 +37,8 @@ ClientAsset::register($this);
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="brand">
-                            <a href="">
-                                <img src="img/logo-Pens.png" alt="Logo">
+                            <a href="<?= Yii::$app->request->baseUrl ?>/">
+                                <img src="<?= Yii::$app->request->baseUrl ?>/img/logo-Pens.png" alt="Logo">
                             </a>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ ClientAsset::register($this);
                                 <a href="https://api.whatsapp.com/send?phone=6281133305005"><i class="fa fa-phone-alt"></i>+62 811-3330-5005</a>
                             </div>
                             <div class="topbar-col">
-                                <a href=""><i class="fa fa-envelope"></i>sikap.pens.ac.id</a>
+                                <a href="mailto:admin@sikap.pens.ac.id"><i class="fa fa-envelope"></i>admin@sikap.pens.ac.id</a>
                             </div>
                             <div class="topbar-col">
                                 <div class="topbar-social">
@@ -67,8 +67,8 @@ ClientAsset::register($this);
 
                             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                 <div class="navbar-nav ml-auto">
-                                    <a href="<?= Yii::$app->request->baseUrl ?>/" class="nav-item nav-link">Home</a>
-                                    <a href="<?= Yii::$app->request->baseUrl ?>/site/about" class="nav-item nav-link">About Us</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/" class="nav-item nav-link <?= $this->title == 'Home' ? 'active' : '' ?>">Home</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/site/about" class="nav-item nav-link <?= $this->title == 'About' ? 'active' : '' ?>">About Us</a>
                                     <a href="services.html" class="nav-item nav-link">Services</a>
                                     <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
                                     <a href="single.html" class="nav-item nav-link">Single Page</a>
