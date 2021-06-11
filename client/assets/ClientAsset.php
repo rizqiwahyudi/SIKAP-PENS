@@ -17,7 +17,7 @@ class ClientAsset extends AssetBundle
         'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css',
         'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css',
         'lib/slick/slick.css',
-        'libs/slick/slick-theme.css',
+        'lib/slick/slick-theme.css',
         'lib/lightbox/css/lightbox.min.css',
         'css/style.css',
     ];

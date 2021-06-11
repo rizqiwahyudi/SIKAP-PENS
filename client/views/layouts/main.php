@@ -69,14 +69,15 @@ ClientAsset::register($this);
                                 <div class="navbar-nav ml-auto">
                                     <a href="<?= Yii::$app->request->baseUrl ?>/" class="nav-item nav-link <?= $this->title == 'Home' ? 'active' : '' ?>">Home</a>
                                     <a href="<?= Yii::$app->request->baseUrl ?>/site/about" class="nav-item nav-link <?= $this->title == 'About' ? 'active' : '' ?>">About Us</a>
-                                    <a href="services.html" class="nav-item nav-link">Services</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/list-kp/" class="nav-item nav-link">Services</a>
                                     <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
                                     <a href="single.html" class="nav-item nav-link">Single Page</a>
-                                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                                    <a href="" class="btn"><i class="fa fa-download"></i>Download Now</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/site/contact" class="nav-item nav-link <?= $this->title == 'Contact' ? 'active' : '' ?>">Contact Us</a>
+                                    <a href="https://drive.google.com/drive/folders/1Fr4qr748Mni6OcPy5LmBim7PQiNbJDF3?usp=sharing" class="btn"><i class="fa fa-download"></i>Download Now</a>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -91,14 +92,14 @@ ClientAsset::register($this);
                 <div class="row">
                     <div class="col-md-5">
                         <div class="footer-about">
-                            <h2>About Us</h2>
+                            <h2>SIKAP - PENS</h2>
                             <p>
-                                web ini di khususkan untuk informasi seputar aturan akademis dan kehidupan kampus dari pens, silahkan kunjungi website https://www.pens.ac.id/ untuk mengakses website official pens
+                                Web ini di khususkan untuk informasi seputar aturan akademis dan kehidupan kampus dari pens, silahkan kunjungi website https://www.pens.ac.id untuk mengakses website official pens
                             </p>
                             <br>
-                            <p><i class="fa fa-map-marker-alt"></i>Jl. Raya ITS – Kampus PENS Sukolilo Surabaya 60111, INDONESIA</p>
-                            <p><i class="fa fa-phone-alt"></i>+62 811-3330-5005/p>
-                            <p><i class="fa fa-envelope"></i>sikap.pens.ac.id</p>
+                            <p><a href="https://goo.gl/maps/NbWni7tpzX32" target="_blank" rel="noopener"><i class="fa fa-map-marker-alt"></i> Raya ITS &#8211; Kampus PENS Sukolilo<br />Surabaya 60111, INDONESIA</a></p>
+                            <p><a href="https://api.whatsapp.com/send?phone=6281133305005"><i class="fa fa-phone-alt"></i>+62 811-3330-5005</a></p>
+                            <p><a href="mailto:admin@sikap.pens.ac.id"><i class="fa fa-envelope"></i>sikap.pens.ac.id</a></p>
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -106,23 +107,17 @@ ClientAsset::register($this);
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Useful Link</h2>
-                                    <a href="">About Us</a>
-                                    <a href="">Our Story</a>
-                                    <a href="">Our Services</a>
-                                    <a href="">Our Portfolio</a>
-                                    <a href="">Our Projects</a>
-                                    <a href="">Contact Us</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/site/about">About Us</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/site/about">Our Story</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/site/about">Our Team</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
                                     <h2>Useful Link</h2>
-                                    <a href="">Our Clients</a>
-                                    <a href="">Clients Review</a>
-                                    <a href="">Ongoing Customer</a>
-                                    <a href="">Customer Support</a>
-                                    <a href="">FAQs</a>
-                                    <a href="">Site Map</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/site/contact">Contact Us</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/">FAQs</a>
+                                    <a href="https://goo.gl/maps/NbWni7tpzX32" target="_blank" rel="noopener">Site Map</a>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +130,7 @@ ClientAsset::register($this);
                         <p>&copy; <a href="">Copyright ©2021 </a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p>Template By <a href="">HTML Codex</a></p>
                     </div>
                 </div>
             </div>
