@@ -4,6 +4,7 @@
 
 $this->title = 'Home';
 ?>
+
 <!-- Hero Start -->
 <div class="hero">
    <div class="container-fluid">
@@ -12,7 +13,7 @@ $this->title = 'Home';
             <h2>Sistem Infromasi</h2>
             <h2><span>Kerja Praktek</span> PENS</h2>
             <p>SIKAP PENS merupakan portal berita mengenai Keja Praktek khusus bagi mahasiswa pens</p>
-            <a class="btn" href="https://htmlcodex.com/bootstrap-agency-template">Download Now</a>
+            <!-- <a class="btn" href="">Download Now</a> -->
          </div>
          <div class="col-md-6">
             <img src="<?= Yii::$app->request->baseUrl ?>/img/hero.png" alt="Image">
@@ -67,10 +68,7 @@ $this->title = 'Home';
             <p>
                Kerja Praktek (KP) merupakan salah satu mata kuliah yang wajib ditempuh oleh setiap mahasiswa PENS. Kegiatan KP dilaksanakan dengan tujuan untuk memberikan wawasan dan pengalaman kerja kepada mahasiswa secara langsung di dunia industri sehingga mahasiswa mendapat kesempatan untuk melihat relevansi keilmuan yang dipelajari serta dapat mengimplementasikan keilmuan/pengetahuan yang dimilki pada permasalahan di dunia kerja
             </p>
-            <p>
-               Berdasarkan kebutuhan dan tuntutan perusahaan dan hasil evalusi diri serta analisa SWOT, PENS memilki kebijakan untuk pelaksanaan KP yang semula ditempuh dalam 1 (satu) bulan diubah pelaksanaannya menjadi 3 (tiga bulan). Perubahan masa tempuh KP ini tentu saja berdampak pada perubahan beberapa prosedur pelaksanaan KP yang ada pada pedoman sebelumnya. Pelaksanaan KP selama tiga bulan juga memerlukan alat monitoring handal yang dapat membantu memantau pelaksanaan proses KP mahasiswa-mahasiswa PENS yang pelaksanaanya berada di luar PENS
-            </p>
-            <a class="btn" href="">Learn More</a>
+            <a class="btn" href="<?= Yii::$app->request->baseUrl ?>/site/about">Learn More</a>
          </div>
       </div>
    </div>
@@ -204,7 +202,7 @@ $this->title = 'Home';
                   </div>
                </div>
             </div>
-            <a class="btn" href="">Ask more</a>
+            <!-- <a class="btn" href="">Ask more</a> -->
          </div>
          <div class="col-md-6">
             <img src="<?= Yii::$app->request->baseUrl ?>/img/faqs.jpg" alt="Image">
@@ -306,7 +304,7 @@ $this->title = 'Home';
             </div>
          </div>
       </div>
-   </div> --> 
+   </div> -->
 <!-- News End -->
 
 
@@ -320,7 +318,7 @@ $this->title = 'Home';
             </p>
          </div>
          <div class="col-md-3">
-            <a class="btn" href="https://htmlcodex.com/contact">Contact Us</a>
+            <a class="btn" href="<?= Yii::$app->request->baseUrl ?>/site/contact">Contact Us</a>
          </div>
       </div>
    </div>
