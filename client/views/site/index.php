@@ -326,4 +326,3 @@ $this->title = 'Home';
    </div>
 </div>
 <!-- Call to Action End -->
-</div>
