@@ -69,7 +69,7 @@ ClientAsset::register($this);
                                 <div class="navbar-nav ml-auto">
                                     <a href="<?= Yii::$app->request->baseUrl ?>/" class="nav-item nav-link <?= $this->title == 'Home' ? 'active' : '' ?>">Home</a>
                                     <a href="<?= Yii::$app->request->baseUrl ?>/site/about" class="nav-item nav-link <?= $this->title == 'About' ? 'active' : '' ?>">About Us</a>
-                                    <a href="<?= Yii::$app->request->baseUrl ?>/list-kp/" class="nav-item nav-link">Services</a>
+                                    <a href="<?= Yii::$app->request->baseUrl ?>/list-kp/" class="nav-item nav-link <?= $this->title == 'List Tempat KP' ? 'active' : '' ?>">List KP</a>
                                     <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
                                     <a href="single.html" class="nav-item nav-link">Single Page</a>
                                     <a href="<?= Yii::$app->request->baseUrl ?>/site/contact" class="nav-item nav-link <?= $this->title == 'Contact' ? 'active' : '' ?>">Contact Us</a>

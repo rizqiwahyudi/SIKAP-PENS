@@ -14,10 +14,11 @@ class m210425_174604_create_list_kp_table extends Migration
     {
         $this->createTable('{{%list_kp}}', [
             'id' => $this->primaryKey(),
-            'name' => $this->string(20)->notNull(),
+            'name' => $this->string(100)->notNull(),
             'address' => $this->string()->notNull(),
             'description' => $this->string()->notNull(),
             'contact' => $this->string()->notNull(),
+            'image' => $this->string()->null(),
         ]);
     }
 
