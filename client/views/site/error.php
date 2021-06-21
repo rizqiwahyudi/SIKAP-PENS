@@ -10,4 +10,4 @@ use yii\helpers\Html;
 $this->title = $name;
 ?>
 
-<img alt="404" src="https://illustatus.herokuapp.com/?title=Oops, Sorry <?= nl2br(Html::encode($message)) ?>&fill=%234f86ed"/>
+<img alt="<?= $name ?>" src="https://illustatus.herokuapp.com/?title=Oops, Sorry <?= nl2br(Html::encode($message)) ?>&fill=%234f86ed"/>
