@@ -17,7 +17,7 @@ class m210425_174604_create_list_kp_table extends Migration
             'name' => $this->string(100)->notNull(),
             'address' => $this->string()->notNull(),
             'description' => $this->string()->notNull(),
-            'contact' => $this->string()->notNull(),
+            'contact' => $this->integer()->notNull(),
             'image' => $this->string()->null(),
         ]);
     }
