@@ -37,7 +37,7 @@ ClientAsset::register($this);
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="brand">
-                            <a href="<?= Yii::$app->request->baseUrl ?>/">
+                            <a href="<?= Yii::$app->homeUrl ?>">
                                 <img src="<?= Yii::$app->request->baseUrl ?>/img/logo-Pens.png" alt="Logo">
                             </a>
                         </div>
@@ -67,7 +67,7 @@ ClientAsset::register($this);
 
                             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                 <div class="navbar-nav ml-auto">
-                                    <a href="<?= Yii::$app->request->baseUrl ?>/" class="nav-item nav-link <?= $this->title == 'Home' ? 'active' : '' ?>">Home</a>
+                                    <a href="<?= Yii::$app->homeUrl ?>" class="nav-item nav-link <?= $this->title == 'Home' ? 'active' : '' ?>">Home</a>
                                     <a href="<?= Yii::$app->request->baseUrl ?>/site/about" class="nav-item nav-link <?= $this->title == 'About' ? 'active' : '' ?>">About Us</a>
                                     <a href="<?= Yii::$app->request->baseUrl ?>/list-kp/" class="nav-item nav-link <?= $this->title == 'List Tempat KP' ? 'active' : '' ?>">List KP</a>
                                     <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
@@ -127,10 +127,10 @@ ClientAsset::register($this);
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="">Copyright ©2021 </a>, All Right Reserved.</p>
+                        <p>&copy; <a href="<?= Yii::$app->homeUrl ?>">SIKAP PENS</a> <script>document.write(new Date().getFullYear());</script>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Template By <a href="">HTML Codex</a></p>
+                        <p>Template By HTML Codex</p>
                     </div>
                 </div>
             </div>

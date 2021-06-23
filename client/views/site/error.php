@@ -9,5 +9,20 @@ use yii\helpers\Html;
 
 $this->title = $name;
 ?>
+<div class="site-error">
 
-<img alt="<?= $name ?>" src="https://illustatus.herokuapp.com/?title=Oops, Sorry <?= nl2br(Html::encode($message)) ?>&fill=%234f86ed"/>
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <div class="alert alert-danger">
+        <?= nl2br(Html::encode($message)) ?>
+    </div>
+
+    <p>
+        The above error occurred while the Web server was processing your request.
+    </p>
+    <p>
+        Please contact us if you think this is a server error. Thank you.
+    </p>
+    <a href="<?= Yii::$app->homeUrl ?>" class="btn btn-primary"><< Back To Home</a>
+
+</div>
