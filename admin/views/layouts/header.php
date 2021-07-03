@@ -229,18 +229,18 @@ use yii\helpers\Html;
 
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
-                        <span class="hidden-xs">Alexander Pierce</span>
+                        <img src="" class="user-image" alt=""/>
+                        <span class="hidden-xs">Admin SIKAP</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
-                            <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle"
-                                 alt="User Image"/>
+                            <img src="" class="img-circle"
+                                 alt=""/>
 
                             <p>
-                                Alexander Pierce - Web Developer
-                                <small>Member since Nov. 2012</small>
+                                Admin SIKAP - Web Developer
+                                <small>Member since Nov. 2021</small>
                             </p>
                         </li>
                         <!-- Menu Body -->
